@@ -3,7 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 
-def generate_student_data(records=2000):
+def generate_student_data(records=1000):
     np.random.seed(42)
 
     study_hours = np.random.uniform(1, 10, records)
